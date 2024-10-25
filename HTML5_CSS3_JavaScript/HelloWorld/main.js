@@ -2,6 +2,10 @@ let Person = {
 	name: "Kinh Kha",
 	age: 20,
 	email: "nguyenkinhkha2004@gmail.com",
+	
+	fun: function(){
+		console.log("Print inside an Object");
+	}
 }
 
 /*for name in names{
@@ -24,6 +28,14 @@ function Show()
 }
 
 let People = [Person, Person, Person];
+
+let a = 20;
+let b = 30;
+
+console.log(Person.fun());
+
+
+
 
 
 
